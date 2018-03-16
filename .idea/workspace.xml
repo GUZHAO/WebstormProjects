@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72034a3b-d97f-482e-b07a-858bb622562a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing Bootstrap/UseHeadroom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Testing Bootstrap/headroom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/headroom-js-demo/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/headroom-js-demo/js/Headroom_Test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Testing Bootstrap/Search_Icon_SVG.html" />
       <change beforePath="$PROJECT_DIR$/.idea/WebstormProjects.iml" afterPath="$PROJECT_DIR$/.idea/WebstormProjects.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Testing Bootstrap/Index.html" afterPath="$PROJECT_DIR$/Testing Bootstrap/Index.html" />
-      <change beforePath="$PROJECT_DIR$/Testing Bootstrap/Style.css" afterPath="$PROJECT_DIR$/Testing Bootstrap/Style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,48 +22,15 @@
       <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="532">
+              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/headroom-js-demo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/headroom-js-demo/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="971" column="27" lean-forward="false" selection-start-line="971" selection-start-column="4" selection-end-line="971" selection-end-column="29" />
-              <folding>
-                <element signature="e#9534#13163#1" expanded="true" />
-                <element signature="e#13180#15678#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UseHeadroom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testing Bootstrap/UseHeadroom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Headroom_Test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/headroom-js-demo/js/Headroom_Test.js">
+        <entry file="file://$PROJECT_DIR$/headroom-js-with-bootstrap/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -79,8 +42,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/headroom-js-demo/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="224">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -89,8 +52,8 @@
       <file leaf-file-name="Style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="308">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,8 +65,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -112,6 +75,7 @@
       <find>btt</find>
       <find>bttHeadroom</find>
       <find>header</find>
+      <find>h-md-250</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,22 +88,30 @@
         <option value="$PROJECT_DIR$/Testing Bootstrap/UseHeadroom.js" />
         <option value="$PROJECT_DIR$/Testing Bootstrap/headroom.js" />
         <option value="$PROJECT_DIR$/Headroom Test/Headroom.html" />
-        <option value="$PROJECT_DIR$/Testing Bootstrap/Index.html" />
         <option value="$PROJECT_DIR$/headroom-js-demo/index.css" />
         <option value="$PROJECT_DIR$/headroom-js-demo/index.html" />
+        <option value="$PROJECT_DIR$/Testing Bootstrap/Search_Icon_SVG.html" />
+        <option value="$PROJECT_DIR$/Testing Bootstrap/Index.html" />
         <option value="$PROJECT_DIR$/Testing Bootstrap/Style.css" />
+        <option value="$PROJECT_DIR$/headroom-js-with-bootstrap/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="737" />
-    <option name="width" value="1190" />
+    <option name="x" value="834" />
+    <option name="width" value="1093" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -168,13 +140,7 @@
             <path>
               <item name="WebstormProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebstormProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="headroom-js-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebstormProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebstormProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="headroom-js-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="headroom-js-with-bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebstormProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -199,7 +165,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="library&#9;ACTION&#9;Editor.JSLibrariesMenu.LibraryList" />
   </component>
@@ -245,21 +211,22 @@
       <workItem from="1518025715520" duration="1870000" />
       <workItem from="1521126718083" duration="6243000" />
       <workItem from="1521143946845" duration="5614000" />
-      <workItem from="1521208759735" duration="9739000" />
+      <workItem from="1521208759735" duration="16793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24553000" />
+    <option name="totallyTimeSpent" value="31607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="737" y="0" width="1190" height="1087" extended-state="0" />
+    <frame x="834" y="0" width="1093" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19335605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21077067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.50215286" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -272,7 +239,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49784714" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -358,10 +324,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/headroom-js-demo/js/index.js">
+    <entry file="file://$PROJECT_DIR$/headroom-js-demo/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="316">
+          <caret line="971" column="27" lean-forward="false" selection-start-line="971" selection-start-column="4" selection-end-line="971" selection-end-column="29" />
+          <folding>
+            <element signature="e#9534#13163#1" expanded="false" />
+            <element signature="e#13180#15678#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing Bootstrap/UseHeadroom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -374,45 +351,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Testing Bootstrap/UseHeadroom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/headroom-js-demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/headroom-js-demo/index.css">
+    <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Search_Icon_SVG.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="971" column="27" lean-forward="false" selection-start-line="971" selection-start-column="4" selection-end-line="971" selection-end-column="29" />
-          <folding>
-            <element signature="e#9534#13163#1" expanded="true" />
-            <element signature="e#13180#15678#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headroom-js-demo/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="308">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headroom-js-with-bootstrap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="532">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding />
         </state>
       </provider>
