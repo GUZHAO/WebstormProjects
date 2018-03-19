@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72034a3b-d97f-482e-b07a-858bb622562a" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change beforePath="" afterPath="$PROJECT_DIR$/Testing Bootstrap/Search_Icon_SVG.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebstormProjects.iml" afterPath="$PROJECT_DIR$/.idea/WebstormProjects.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Testing Bootstrap/Index.html" afterPath="$PROJECT_DIR$/Testing Bootstrap/Index.html" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
+>>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +31,15 @@
       <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="28">
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="237">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+=======
+            <state relative-caret-position="532">
+>>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
               <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
@@ -42,6 +61,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
               <folding />
             </state>
           </provider>
@@ -50,8 +70,13 @@
       <file leaf-file-name="Style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Style.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="320">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+=======
             <state relative-caret-position="308">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
               <folding />
             </state>
           </provider>
@@ -108,9 +133,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="x" value="521" />
+    <option name="y" value="22" />
+    <option name="width" value="919" />
+    <option name="height" value="878" />
+=======
     <option name="x" value="834" />
     <option name="width" value="1093" />
     <option name="height" value="1087" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,6 +177,12 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,6 +193,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
     <property name="SearchEverywhereHistoryKey" value="library&#9;ACTION&#9;Editor.JSLibrariesMenu.LibraryList" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
   </component>
@@ -162,6 +203,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gz056\JetBrian\WebstormProjects\headroom-js-demo\js" />
     </key>
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,19 +241,47 @@
       <workItem from="1517861365323" duration="1087000" />
       <workItem from="1518025715520" duration="1870000" />
       <workItem from="1521126718083" duration="6243000" />
+<<<<<<< HEAD
+      <workItem from="1521143946845" duration="5024000" />
+      <workItem from="1521164071468" duration="724000" />
+      <workItem from="1521164961289" duration="321000" />
+=======
       <workItem from="1521143946845" duration="5614000" />
+<<<<<<< HEAD
       <workItem from="1521208759735" duration="17392000" />
       <workItem from="1521464092048" duration="76000" />
+=======
+      <workItem from="1521208759735" duration="16793000" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
+>>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="32282000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="15269000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="521" y="22" width="919" height="878" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1164309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="31607000" />
+>>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
   </component>
   <component name="ToolWindowManager">
     <frame x="834" y="0" width="1093" height="1087" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21077067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21077067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
+>>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.50215286" order="7" side_tool="true" content_ui="tabs" />
@@ -284,8 +354,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="320">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
         <state relative-caret-position="448">
           <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
           <folding />
         </state>
       </provider>
@@ -327,6 +410,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+=======
     <entry file="file://$PROJECT_DIR$/Testing Bootstrap/headroom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -390,14 +479,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Index.html">
+    <entry file="file://$PROJECT_DIR$/Testing Bootstrap/Style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="28">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="320">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+=======
+        <state relative-caret-position="532">
+>>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+>>>>>>> af6705e85fe148421c1e2ffeaba0f39cbd441d82
           <folding />
         </state>
       </provider>
