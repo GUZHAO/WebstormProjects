@@ -1,8 +1,3 @@
 
-*.xml
-.idea/workspace.xml
-.idea/workspace.xml
-<<<<<<< HEAD
-=======
-*.xml
->>>>>>> fba717c54eb9fd7746a75b396b17802a2019c72d
+.DS_Store
+.idea
