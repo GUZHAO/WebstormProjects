@@ -1,1 +1,1 @@
-$(".collapse").headroom();
+$(".bg-dark").headroom();
