@@ -1,0 +1,63 @@
+body {
+    min-height: 75rem;
+}
+
+html {
+    font-size: 14px;
+    background-color: #fafafa
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+    margin-top: 2.5rem;
+}
+
+.pricing-header {
+    max-width: 700px;
+    margin-top: 4.5rem;
+    border-radius: 0 0 0 2130px;
+    background: linear-gradient(145deg, #0d47a1, #42a5f5);
+    color: #fafafa;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+.background-sky {
+    background-color: #1976d2;
+    background: linear-gradient(145deg, #0d47a1, #42a5f5);
+    color: #fff;
+}
+
