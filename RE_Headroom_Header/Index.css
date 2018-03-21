@@ -19,13 +19,13 @@ header {
 
 h1 {
     margin: 0;
-    padding: 100px 0;
     font: 44px "Arial";
     text-align: center;
 }
 
 header h1 {
     position: relative;
+    padding-top: 15%;
     color: white;
 }
 
@@ -84,9 +84,4 @@ html {
     transform: translateY(-100%);
 }
 
-.background-sky {
-    background-color: #1976d2;
-    background: linear-gradient(145deg, #0d47a1, #42a5f5);
-    color: #fff;
-}
 
