@@ -1,7 +1,37 @@
+/*Setting Reusable CSS*/
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #fafafa
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 75rem;
+}
+
 header {
     position: relative;
     height: 500px;
     overflow: hidden;
+}
+
+@keyframes colorchange {
+    0% {
+        background-image: linear-gradient(#9A9EAB, #5D535E);
+        transform: skewY(-16deg);
+    }
+    100% {
+        background-image: linear-gradient(#EC96A4, #DFE166);
+        transform: skewY(-6deg);
+    }
 }
 
 .header__bg {
@@ -12,8 +42,10 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#0d47a1, #42a5f5);
-    transform: skewY(-16deg);
+    animation-name: colorchange;
+    animation-timing-function: ease-out; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     transform-origin: top left;
 }
 
@@ -25,34 +57,80 @@ h1 {
 
 header h1 {
     position: relative;
-    padding-top: 15%;
+    padding: inherit;
     color: white;
 }
 
-body {
-    min-height: 75rem;
-}
 
-html {
-    font-size: 14px;
-    background-color: #fafafa
-}
-
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
+@media (max-width: 575.98px) {
+    header h1 {
+        position: relative;
+        padding-top: 50%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5em;
+        font-weight: 300;
     }
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header h1 {
+        position: relative;
+        padding-top: 35%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.7em;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header h1 {
+        position: relative;
+        padding-top: 20%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.7em;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header h1 {
+        position: relative;
+        padding-top: 12%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.9em;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 1200px) {
+    header h1 {
+        text-align: left;
+        position: relative;
+        padding-top: 8%;
+        padding-left: 3px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.9em;
+        font-weight: 300;
+    }
+}
+
 
 .container {
     max-width: 960px;
     margin-top: 2.5rem;
 }
 
-.pricing-header {
-    max-width: 700px;
+.overview-header {
+    max-width: 850px;
     margin-top: 4.5rem;
 
+}
+
+.tableauPlaceholder {
+    width: 1400px;
+    height: 900px;
+    margin: auto;
+    margin-top: 5%;
 }
 
 .card-deck .card {
@@ -83,5 +161,3 @@ html {
 .headroom--unpinned {
     transform: translateY(-100%);
 }
-
-
