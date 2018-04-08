@@ -26,11 +26,11 @@ header {
 @keyframes colorchange {
     0% {
         background-image: linear-gradient(#F52549, #FA6775);
-        transform: skewY(-16deg);
+        transform: skewY(-3deg);
     }
     100% {
         background-image: linear-gradient(#FFD64D, #9BC01C);
-        transform: skewY(-6deg);
+        transform: skewx(3deg);
     }
 }
 
