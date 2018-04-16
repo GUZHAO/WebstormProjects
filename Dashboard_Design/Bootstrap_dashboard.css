@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+.container {
+    margin-top: 3%;
+    width: 700px;
+    height: 425px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.db-1 {
+    height: 40px;
+}
+
+.db-1-1 {
+    border-radius: 4px;
+}
+
+.db-1-2 {
+    border-radius: 4px;
+}
+
+.btn {
+    border-radius: 15px;
+}
+
+.db-3-1 {
+    border-radius: 10px;
+}
+
+.db-3-2 {
+    border-radius: 10px;
+}
+
+.table {
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #CCCCCC;
+}
+
+.t_head {
+    background: #e74c3c;
+}
+
