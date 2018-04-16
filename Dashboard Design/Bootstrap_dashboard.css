@@ -1,0 +1,35 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+body:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.container {
+    margin-top: 3%;
+    width: 700px;
+    height: 425px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.db-1 {
+    height: 40px;
+}
+
+.db-1-1 {
+    margin: auto;
+    border-radius: 4px;
+}
+
+.db-1-2 {
+    margin: auto;
+    background-color: #c0392b;
+    border-radius: 4px;
+}
