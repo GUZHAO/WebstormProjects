@@ -51,3 +51,13 @@ body {
     background: #e74c3c;
 }
 
+.chart {
+  background: white;
+  width: 300px;
+  height: 100px;
+  border-left: 1px solid #555;
+  border-bottom: 1px solid #555;
+  border-width: 2px;
+  padding: 20px 20px 20px 20px;
+}
+
