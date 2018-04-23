@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "tl..js",
+  "sourceRoot": "",
+  "sources": [
+    "tl..coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,CAAA,CAAE,QAAF,CAAW,CAAC,KAAZ,CAAkB,QAAA,CAAA,CAAA;WAChB,GAAG,CAAC,IAAJ,CAAA;EADgB,CAAlB;;EAGA,GAAA,GACE;IAAA,IAAA,EAAM,uFAAN;IACA,KAAA,EAAO,CADP;IAEA,KAAA,EAAO,CAFP;IAGA,KAAA,EAAO,GAHP;IAIA,SAAA,EAAW,gBAJX;IAMA,IAAA,EAAM,QAAA,CAAA,CAAA;MACJ,IAAC,CAAA,KAAD,GAAS,IAAC,CAAA,IAAI,CAAC;aACf,IAAC,CAAA,KAAD,CAAA;IAFI,CANN;IAUA,KAAA,EAAO,QAAA,CAAA,CAAA;MACL,CAAA,CAAE,IAAC,CAAA,SAAH,CAAa,CAAC,MAAd,CAAqB,IAAC,CAAA,IAAK,CAAA,IAAC,CAAA,KAAD,CAA3B;MACA,IAAG,IAAC,CAAA,KAAD,GAAS,IAAC,CAAA,KAAb;QACE,IAAC,CAAA,KAAD;eACA,MAAM,CAAC,UAAP,CAAkB,QAAA,CAAA,CAAA;iBAChB,GAAG,CAAC,KAAJ,CAAA;QADgB,CAAlB,EAEE,IAAC,CAAA,KAFH,EAFF;;IAFK;EAVP;AAJF",
+  "sourcesContent": [
+    "$(document).ready ->\n  app.init()\n\napp =\n  text: \"この先の道は, ひとりかふたりか, 選ばなきゃいけない, 正解はあるの, I don’t know, リミットはあるの, I don’t know what to do.\"\n  index: 0\n  chars: 0\n  speed: 100\n  container: \".text .content\"\n\n  init: ->\n    @chars = @text.length\n    @write()\n\n  write: ->\n    $(@container).append @text[@index]\n    if @index < @chars\n      @index++\n      window.setTimeout ->\n        app.write()\n      , @speed"
+  ]
+}
