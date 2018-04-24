@@ -1,0 +1,19 @@
+.container {
+    margin-top: 5%;
+    width: 1200px;
+    height: 625px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 20px;
+    width: 30vw;
+    height: 30vw;
+    overflow: hidden;
+}
+
