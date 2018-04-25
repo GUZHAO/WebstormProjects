@@ -1,29 +1,26 @@
+
 body {
-    overflow: hidden;
+    height: 100%;
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .container {
     position: relative;
     margin-top: 5%;
-    width: 1200px;
+    width: 1400px;
     height: 625px;
     border-radius: 4px;
     background-color: #FFFFFF;
     overflow: hidden;
 }
 
-.bg {
+.bg-front {
     position: absolute;
-    right: -180px;
-    top: -200px;
-    width: 40vw;
-    height: 40vw;
-}
-
-.bg_bk {
-    position: absolute;
-    right: -180px;
-    top: -200px;
-    width: 40vw;
-    height: 40vw;
+    right: -380px;
+    top: -280px;
+    width: 45vw;
+    height: 45vw;
 }
