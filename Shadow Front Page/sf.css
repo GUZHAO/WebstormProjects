@@ -1,4 +1,9 @@
+body {
+    overflow: hidden;
+}
+
 .container {
+    position: relative;
     margin-top: 5%;
     width: 1200px;
     height: 625px;
@@ -9,11 +14,16 @@
 
 .bg {
     position: absolute;
-    display: inline-block;
-    right: 10px;
-    top: 20px;
-    width: 30vw;
-    height: 30vw;
-    overflow: hidden;
+    right: -180px;
+    top: -200px;
+    width: 40vw;
+    height: 40vw;
 }
 
+.bg_bk {
+    position: absolute;
+    right: -180px;
+    top: -200px;
+    width: 40vw;
+    height: 40vw;
+}
