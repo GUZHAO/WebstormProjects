@@ -17,25 +17,18 @@
 
 <div class="container shadow-lg">
     <div class="bg-front">
-        <svg viewBox="0 0 100 100">
+        <svg viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg">
             <defs>
-                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" style="stop-color:#141E30;stop-opacity:1"/>
-                    <stop offset="100%" style="stop-color:#243B55;stop-opacity:1"/>
-                </linearGradient>
-            </defs>r5kk,5
-            <circle cx="50" cy="50" r="50" fill="url(#grad1)"/>
-        </svg>
-    </div>
-    <div class="bg-front2">
-        <svg viewBox="0 0 100 100">
-            <defs>
-                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" style="stop-color:#ddd6f3;stop-opacity:1"/>
-                    <stop offset="100%" style="stop-color:#faaca8;stop-opacity:1"/>
-                </linearGradient>
+                <clipPath id="mask_left">
+                    <circle r="25" id="circle_right" cy="45" cx="30" fill="none"/>
+                </clipPath>
             </defs>
-            <circle cx="50" cy="50" r="50" fill="url(#grad2)"/>
+            <g>
+                <circle r="50" id="circle_left" cy="75" cx="75" fill="#152D3C"/>
+                <circle r="25" id="circle_right" cy="45" cx="30" fill="#F1E5F5"/>
+                <circle r="50" id="center" cy="75" cx="75" fill="#FFC918" clip-path="url(#mask_left)"/>
+                <circle r="10" id="deco" cy="90" cx="90" fill="#7648F8"/>
+            </g>
         </svg>
     </div>
 </div>
@@ -51,5 +44,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+<script src="sf.js"></script>
 </body>
 </html>

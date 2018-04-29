@@ -5,6 +5,7 @@ html {
 body {
     height: 100%;
     margin: 0;
+    background: #FFFEFB;
     /*background: #000000;  !* fallback for old browsers *!*/
     /*background: -webkit-linear-gradient(to bottom, #434343, #000000);  !* Chrome 10-25, Safari 5.1-6 *!*/
     /*background: linear-gradient(to bottom, #434343, #000000); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
@@ -24,19 +25,9 @@ body {
 
 .bg-front {
     position: absolute;
-    background-blend-mode: screen;
-    right: -4em;
-    top: -280px;
+    right: -20%;
+    top: -40%;
     width: 60vw;
     height: 60vw;
-
 }
 
-.bg-front2 {
-    position: absolute;
-    background-blend-mode: screen;
-    left: 8em;
-    top: -180px;
-    width: 30vw;
-    height: 30vw;
-}
