@@ -23,9 +23,31 @@
 <body>
 
 <div class="container">
-    <header class="blog-header py-3">
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-            <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+    <header class="blog-header">
+        <div class="d-flex flex-column flex-md-row align-items-center md-4 mb-3 bg-white">
+            <div class="mx-0 my-0 mr-md-auto blog_icon">
+                <svg>
+                    <defs>
+                        <!-- 53% horizon split -->
+                        <linearGradient id="grad_b" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="53%" style="stop-color:#152D3C;stop-opacity:1" />
+                            <stop offset="0%" style="stop-color:#FFC918;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <symbol id="s-text" font-family="Ubuntu" viewBox="0 0 100 50">
+                        <text>
+                            <tspan class="blink_icon" x="0" y="32" font-size="30px">_</tspan>
+                        </text>
+                        <text>
+                            <tspan x="20" y="33" fill="#152D3C" font-size="20px">:</tspan>
+                        </text>
+                        <text>
+                            <tspan x="30" y="37" font-size="30px" fill="url(#grad_b)">bold</tspan>
+                        </text>
+                    </symbol>
+                    <use href="#s-text" />
+                </svg>
+            </div>
             <nav class="my-2 my-md-0 mr-md-3">
                 <a class="p-2 text-dark" href="#">Features</a>
                 <a class="p-2 text-dark" href="#">Enterprise</a>
@@ -38,7 +60,7 @@
 
     <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark shadow">
         <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+            <h1 class="display-4">Title of a longer featured blog post</h1>
             <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
                 efficiently about what's most interesting in this post's contents.</p>
             <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
