@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="btn1">+</div>
+<div id="btn2">-</div>
+<p id="content">how to swear</p>
+<script>
+    var oText = document.getElementById("content");
+    var oBtn1 = document.getElementById("btn1");
+    var oBtn2 = document.getElementById("btn2");
+
+    var size = 16;
+    oBtn1.onclick = function () {
+        size = size + 1;
+        console.log(size);
+        oText.style.fontSize = size + 'px';
+    };
+
+    oBtn2.onclick = function () {
+        size = size - 1;
+        console.log(size);
+        oText.style.fontSize = size + 'px';
+    };
+
+</script>
+
+</body>
+</html>

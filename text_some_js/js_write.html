@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        #text {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<input type="text" id="test"/>
+<div class="box">
+    <h3 id="text"> 0 </h3>
+    <input type="button" id="btn" value="click and try">
+</div>
+<script>
+    var oText = document.getElementById("text");
+    var oBtn = document.getElementById("btn");
+    var oTest = document.getElementById("test");
+    var index = 0;
+    oBtn.onclick = function () {
+        index = index + 1;
+        oText.innerHTML = index;
+        oTest.value = index;
+    }
+</script>
+</body>
+</html>

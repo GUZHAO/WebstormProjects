@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="text1"/>
+<input type="text" id="text2"/>
+<input type="button" value="+" id="btn1"/>
+<input type="button" value="-" id="btn2"/>
+<input type="button" value="*" id="btn3"/>
+<input type="button" value="/" id="btn4"/>
+<input type="button" value="mod" id="btn5"/>
+
+<script>
+    var oText1 = document.getElementById("text1");
+    var oText2 = document.getElementById("text2");
+    var oBtn1 = document.getElementById("btn1");
+    var oBtn2 = document.getElementById("btn2");
+    var oBtn3 = document.getElementById("btn3");
+    var oBtn4 = document.getElementById("btn4");
+    var oBtn5 = document.getElementById("btn5");
+
+    oBtn1.onclick = function () {
+        var num1 = Number(oText1.value);
+        var num2 = Number(oText2.value);
+        alert(num1 + num2);
+    };
+
+
+    oBtn2.onclick = function () {
+        alert(oText1.value - oText2.value);
+    };
+
+
+    oBtn3.onclick = function () {
+        alert(oText1.value * oText2.value);
+    };
+
+
+    oBtn4.onclick = function () {
+        alert(oText1.value / oText2.value);
+    };
+
+
+    oBtn5.onclick = function () {
+        alert(oText1.value % oText2.value);
+    };
+</script>
+</body>
+</html>
