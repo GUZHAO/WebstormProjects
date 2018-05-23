@@ -1,0 +1,170 @@
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    tab-size: 2;
+
+    hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    border-radius: 0.3em;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #9DA3A9;
+}
+
+.token.punctuation {
+    color: #f8f8f2;
+}
+
+.namespace {
+    opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+    color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+    color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function {
+    color: #e6db74;
+}
+
+.token.keyword {
+    color: #FF6F31;
+}
+
+.token.regex,
+.token.important {
+    color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.dotdotdot {
+    color: #FF6F31;
+    letter-spacing: 1px;
+}
+
+.light-background-code .token.comment,
+.light-background-code .token.prolog,
+.light-background-code .token.doctype,
+.light-background-code .token.cdata {
+    color: #838486;
+}
+
+.light-background-code .token.punctuation {
+    color: #585854;
+}
+
+.light-background-code .namespace {
+    opacity: .7;
+}
+
+.light-background-code .token.property,
+.light-background-code .token.tag,
+.light-background-code .token.constant,
+.light-background-code .token.symbol,
+.light-background-code .token.deleted {
+    color: #99234e;
+}
+
+.light-background-code .token.boolean,
+.light-background-code .token.number {
+    color: #6c539a;
+}
+
+.light-background-code .token.selector,
+.light-background-code .token.attr-name,
+.light-background-code .token.string,
+.light-background-code .token.char,
+.light-background-code .token.builtin,
+.light-background-code .token.inserted {
+    color: #5A8208;
+}
+
+.light-background-code .token.operator,
+.light-background-code .token.entity,
+.light-background-code .token.url,
+.light-background-code .language-css .token.string,
+.light-background-code .style .token.string,
+.light-background-code .token.variable {
+    color: #4D5156;
+}
+
+.light-background-code .token.atrule,
+.light-background-code .token.attr-value,
+.light-background-code .token.function {
+    color: #6B289E;
+}
+
+.light-background-code .token.keyword {
+    color: #bf420d;
+}
+
+.light-background-code .token.regex,
+.light-background-code .token.important {
+    color: #fd971f;
+}

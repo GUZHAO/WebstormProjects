@@ -1,0 +1,164 @@
+body,
+.body {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    background: #000;
+    font-family: "Helvetica Neue", "Helvetica", "Tahoma", sans-serif;
+}
+
+.logo {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.hidden {
+    position: absolute;
+    pointer-events: none;
+}
+
+.wrapper1 {
+    max-width: 530px;
+    padding: 10px;
+    background: rgba(44, 49, 56, 0.1);
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.wrapper2 {
+    padding: 5px;
+    background: rgba(44, 49, 56, 0.6);
+    border-radius: 8px;
+}
+
+.wrapper {
+    background: rgb(44, 49, 56);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.question {
+    background: #202225;
+    font-size: 15px;
+    padding: 13px 30px;
+    color: #fff;
+    font-weight: 300;
+    white-space: pre-wrap;
+}
+
+.answer {
+    text-decoration: none;
+    display: block;
+    margin: 10px 30px;
+    border-radius: 5px;
+    background: #68727f;
+    min-height: 50px;
+}
+
+.percentage {
+    text-align: right;
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.5px;
+    padding: 0 30px 10px;
+    margin-top: -5px;
+}
+
+.percentage-chosen {
+    font-weight: bold;
+}
+
+.circle-wrapper {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+    background: #68727f;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 21px;
+}
+
+.circle-wrapper svg {
+    margin: 17px;
+}
+
+.answer .inner {
+    display: inline-block;
+    line-height: 50px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.explanation-title {
+    padding: 30px 30px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.explanation {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 30px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.download {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 10px;
+    margin-top: 30px;
+    line-height: 16px;
+}
+
+.footer-company-info {
+    color: #88898b;
+    text-align: center;
+}
+
+.footer-unsubscribe {
+    text-align: center;
+}
+
+.horizontal-separator {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social-buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.social-buttons .share {
+    display: inline-block;
+    margin: 2%;
+}
