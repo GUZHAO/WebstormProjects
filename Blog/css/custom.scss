@@ -15,14 +15,6 @@ $color-info: #000;
  Main Style
  */
 
-[hidden] {
-  display: none;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -31,18 +23,6 @@ html {
 
 body {
   margin: 0;
-}
-
-a:focus {
-  outline: thin dotted;
-}
-
-a:active, a:hover {
-  outline: 0;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-  display: block;
 }
 
 h1 {
@@ -143,9 +123,10 @@ main {
   padding: 0;
 }
 
+.codepen,
 .github {
-  display: block;
   margin: 0 0 0 auto;
+  float: right;
 }
 
 .links {
@@ -533,9 +514,10 @@ main {
     margin: 0;
   }
 
+  .codepen,
   .github {
-    display: block;
     margin: 1em auto;
+    float: right;
   }
 
   .links {
