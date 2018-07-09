@@ -1,36 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Buenard:400,700");
-/*
+/**********
  Setting Variables
-*/
-/*
+ **********/
+/**********
  Main Style
- */
+ **********/
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
-
-body {
-  margin: 0; }
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
-*,
-*::after,
-*::before {
   box-sizing: border-box; }
 
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
+  margin: 0;
   font-family: 'Buenard', serif;
   min-height: 100vh;
   color: #1a1f3e;
-  background-color: #ececec;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  background-color: #ececec; }
 
-.js .loading::before {
+.loading::before {
   content: '';
   position: fixed;
   z-index: 100000;
@@ -40,7 +28,7 @@ body {
   height: 100%;
   background: #ececec; }
 
-.js .loading::after {
+.loading::after {
   content: '';
   position: fixed;
   z-index: 100000;
@@ -59,6 +47,10 @@ body {
   to {
     opacity: 1;
     transform: scale3d(0.5, 0.5, 1); } }
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
 a {
   text-decoration: none;
   color: #000;
@@ -96,8 +88,7 @@ main {
   margin: 0;
   padding: 0; }
 
-.codepen,
-.github {
+.social {
   margin: 0 0 0 auto;
   float: right; }
 
@@ -422,8 +413,7 @@ main {
   .info {
     margin: 0; }
 
-  .codepen,
-  .github {
+  .social {
     margin: 1em auto;
     float: right; }
 

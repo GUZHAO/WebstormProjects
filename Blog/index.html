@@ -4,23 +4,18 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog</title>
-    <meta name="description" content="A blog about writing summary of awesome technology books."/>
-    <meta name="keywords" content="blog, book"/>
+    <meta name="description" content="A blog about writing reading notes of awesome technology books."/>
+    <meta name="keywords" content="blog, reading notes"/>
     <meta name="author" content="Gu Zhao"/>
     <!--icon-->
     <link rel="icon" href="favicon.ico">
     <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="css/custom.css"/>
     <!--Font Awesome-->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    <script src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
             integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
             crossorigin="anonymous"></script>
-    <script>document.documentElement.className = "js";
-    var supportsCssVars = function () {
-        var e, t = document.createElement("style");
-        return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
-    };
-    supportsCssVars() || alert("Please view this in a modern browser that supports CSS Variables.");</script>
+    <!--I need to think about the use of Modernizr-->
 </head>
 <body class="loading">
 <svg class="hidden">
@@ -39,12 +34,14 @@
                 </a>
             </div>
             <h1 class="header__title">Gu Zhao</h1>
+            <div class="social">
             <a class="codepen" href="https://codepen.io/sakurazome/" title="Codepen">
                 <i class="fab fa-codepen fa-2x"></i>
             </a>
             <a class="github" href="https://github.com/GUZHAO" title="GitHub">
                 <i class="fab fa-github fa-2x"></i>
             </a>
+            </div>
         </header>
     </div>
     <div class="content">
