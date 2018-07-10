@@ -53,10 +53,6 @@
                     translation: {x: 20, y: 50, z: 0},
                     rotation: {x: 0, y: 0, z: -20}
                 },
-                deco: {
-                    translation: {x: -20, y: 0, z: 0},
-                    rotation: {x: 0, y: 0, z: 3}
-                },
                 shadow: {
                     translation: {x: 30, y: 20, z: 0},
                     rotation: {x: 0, y: 0, z: -2},
@@ -72,7 +68,6 @@
             this.DOM.animatable.image = this.DOM.el.querySelector('.box__img');
             this.DOM.animatable.title = this.DOM.el.querySelector('.box__title');
             this.DOM.animatable.text = this.DOM.el.querySelector('.box__text');
-            this.DOM.animatable.deco = this.DOM.el.querySelector('.box__deco');
             this.DOM.animatable.shadow = this.DOM.el.querySelector('.box__shadow');
             this.DOM.animatable.content = this.DOM.el.querySelector('.box__content');
 
@@ -85,7 +80,6 @@
                 if (enter) {
                     enter = false;
                 }
-                ;
                 clearTimeout(this.mousetime);
                 this.mousetime = setTimeout(() => enter = true, 40);
             };
