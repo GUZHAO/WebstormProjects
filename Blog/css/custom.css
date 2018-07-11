@@ -261,7 +261,7 @@ main {
   bottom: 0; }
 
 .box__img--original {
-  max-height: calc(100vh - 10rem);
+  max-height: calc(100vh - 20rem);
   filter: none; }
 
 .overlay__close {
